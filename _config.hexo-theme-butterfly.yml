@@ -27,9 +27,9 @@ menu:
   标籤: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   清单||fa fa-heartbeat:
-    音乐: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
+     音乐: /music/ || fas fa-music
+     照片: /Gallery/ || fas fa-images
+     电影: /movies/ || fas fa-video
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -58,6 +58,8 @@ code_blocks:
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fas fa-qq: mailto:2632303458@qq.com || Email || '#4a7dbe'
+  fas fa-bilibili: https://space.bilibili.com/394967165 || bilibili || '#FB7299'
 
 # --------------------------------------
 # Image Settings
@@ -73,36 +75,36 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: 
 
 # The banner image of index page
 index_img: /img/beijing.png 
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/archive.jpg
 
 # Note: tag page, not tags page
-tag_img:
-
+tag_img: /img/tag2.jpg
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: 
 
 # Note: category page, not categories page
-category_img:
+category_img: /img/category2.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: 
 
 # The background image of footer
 footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background:
+background: /img/tag2.jpg
+    
 
 cover:
   # Disable the cover or not
@@ -112,7 +114,7 @@ cover:
   # When cover is not set, the default cover is displayed
   default_cover:
     # - xxx.jpg
-
+    /img/category2.jpg
 # Replace Broken Images
 error_img:
   flink: /img/friend_404.gif
@@ -132,7 +134,7 @@ post_meta:
     # Choose: date / relative
     date_format: date
     categories: true
-    tags: false
+    tags: fsles
     label: true
   post:
     # Choose: left / center
@@ -175,6 +177,7 @@ subtitle:
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub: 
     - '纵有疾风起，人生不言弃'
+    - '欢迎来到超的个人博客，让我们开启专属的技术学习之旅'
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -302,7 +305,7 @@ aside:
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到我的个人博客，让我们开启技术学习之旅！
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -1065,7 +1068,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-      - <div class="aplayer no-destroy" data-id="1805939548" data-server="netease" data-type="song" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>
+      - <div class="aplayer no-destroy" data-id="17475793871" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>
     # - <script src="xxxx"></script>
 
 # CDN Settings
@@ -1140,3 +1143,22 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: wanko
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
