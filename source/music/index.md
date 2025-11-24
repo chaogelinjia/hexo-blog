@@ -6,3 +6,7 @@ aplayer: true
 ---
 
 {% meting "1805939548" "netease" "song" "autoplay" "mutex:false" "listmaxheight:100px" "preload:none" "autoplay = true" "theme:#ad7a86"%}
+
+{% meting "17475793871" "netease" "song" "autoplay" "mutex:false" "listmaxheight:100px" "preload:none" "autoplay = true" "theme:#ad7a86"%}
+
+{% meting "440353010" "netease" "song" "autoplay" "mutex:false" "listmaxheight:100px" "preload:none" "autoplay = true" "theme:#ad7a86"%}
