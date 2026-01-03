@@ -191,7 +191,7 @@ git clone git@github.com:jerryc127/hexo-theme-butterfly.git hexo-theme-butterfly
 ```cmd
 hexo clean //执行此命令后继续下一条
 hexo g //生成博客目录
-hexo s //本地预览
+hexo s //本地预览，这一步就可以观看本地运行效果了
 hexo d //部署到github上--上传到仓库的是生成好的静态页面而不是源码
 ```
 
@@ -440,9 +440,13 @@ npm install --save live2d-widget-model-wanko
 
 **(3)在主题配置文件加入下面的信息**
 
+{% asset_img image-20251222133934698.png%}
+
+在全局配置文件.config.yml中最底部添加下面这段代码
+
 ```yml
 live2d:
-  enable: true
+  enable: true #false表示不显示看板娘
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
@@ -456,7 +460,7 @@ live2d:
     width: 150
     height: 300
   mobile:
-    show: true
+    show: false #false表示不在移动端显示
   react:
     opacity: 0.7
 ```

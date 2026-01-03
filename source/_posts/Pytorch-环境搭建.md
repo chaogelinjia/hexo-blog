@@ -1,5 +1,5 @@
 ---
-title: Pythorch 环境搭建
+title: Pytorch 环境搭建
 date: 2025-11-24 14:44:54
 tags: 学习
 categories: 深度学习
